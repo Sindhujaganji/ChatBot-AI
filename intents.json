@@ -1,0 +1,69 @@
+{
+    "intents": [
+    {
+        "tag": "welcome",
+        "patterns": [
+            ""
+        ],
+        "responses": [
+            "Chat with me!"
+        ],
+        "set": ""
+        },
+     {
+      "tag": "greeting",
+      "patterns": [
+       "hi",
+       "is anyone there?",
+       "Hello",
+       "Good day"
+      ],
+      "responses": [
+       "Hello",
+       "Good to see you again! ",
+       "Hi , how can I help?"
+      ],
+      "set": ""
+     },
+     {
+      "tag": "botstatus",
+      "patterns": [
+       "How are you doing?",
+       "Whats up",
+       "are you fine"
+      ],
+      "responses": [
+       "I am fine.Thanks for asking.",
+       "I am doing good."
+      ],
+      "set": ""
+     },
+     {
+      "tag": "creator",
+      "patterns": [
+       "who are you ?",
+       "who is this ?",
+       "who am i talking to?",
+       "what is your name?",
+       "are you human?"
+      ],
+      "responses": [
+       "Hi my name is WeatherGuy. I am better than news reporters.. Trust me! \nBy the way, nice to meet you."
+      ],
+      "set": ""
+     },
+     {
+        "tag": "weather",
+        "patterns": [
+         "what is the weather today?",
+         "todays weather",
+         "weather",
+         "weather of city "
+        ],
+        "responses": [
+         "gotoFunction"
+        ],
+        "set": ""
+       }
+    ]
+}
